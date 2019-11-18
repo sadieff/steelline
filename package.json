@@ -1,0 +1,43 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "dsc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "bower-main": "^0.2.14",
+    "browser-sync": "^2.26.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-bower-files": "^0.2.7",
+    "gulp-concat": "^2.6.1",
+    "gulp-csso": "^3.0.1",
+    "gulp-jsx": "^2.0.1",
+    "gulp-less": "^4.0.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglyfly": "^1.4.2",
+    "gulp-uncss": "^1.0.6",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "gulp.spritesmith": "^6.9.0",
+    "orchestrator": "^0.3.8",
+    "sprity": "^1.0.8",
+    "vinyl-fs": "^3.0.3"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-stylus": "^2.7.0",
+    "vinyl-ftp": "^0.6.1"
+  }
+}
