@@ -4,5 +4,6 @@
 *.xls
 *.cmd
 
+/.time.txt
 /.idea/*
 /node_modules/*
