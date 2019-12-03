@@ -9,13 +9,11 @@ $(document).ready(function() {
     });
 
     $('.header-menu li.parent > span').on('click', function(){
-        var content = $(this).next('ul');
-        if(content.is(':hidden')){
-            content.slideDown(300);
-        }
-        else {
-            content.slideUp(300);
-        }
+        $(this).toggleClass('active');
+    });
+
+    $('.header-menu li.back').on('click', function(){
+        $(this).closest('li.parent').children('span').toggleClass('active');
     });
 
     /* filter */
